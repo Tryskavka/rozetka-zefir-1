@@ -274,3 +274,49 @@ body {
 .d-flex {
 	display: flex;
 }
+.container__menu {
+	width: 24px;
+	height: 24px;
+	color: #3e77aa;
+	position: relative;
+	padding-left: 12px;
+	padding-right: 12px;
+	position: relative;
+	vertical-align: middle;
+}
+.headers__icon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.menu-categories__item {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.menu-categories__link {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 100%;
+	padding-left: 12px;
+	padding-right: 12px;
+	box-sizing: border-box; 
+	font-size: 14px;
+	line-height: 31px;
+}
+.menu-categories__icon {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -4px;
+	margin-right: 8px;
+	text-align: center;
+}
+.home__banner__button {
+	width: 16px;
+	height: 40px;
+	box-sizing: border-box;
+}
+
